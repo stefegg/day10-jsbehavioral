@@ -1,0 +1,17 @@
+#spoilers {
+  transition: opacity;
+  transition-duration: 2s;
+}
+
+.revealed {
+  color: black;
+  opacity: 1;
+}
+
+#spoiler-container {
+  border: 2px solid red;
+}
+
+.hidden {
+  opacity: 0;
+}
